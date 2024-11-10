@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar Sesión</title>
+  <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <script defer src="../components/footer.js"></script>
+  <script defer src="../components/login.js"></script>
+</head>
+<body>
+  <div class="login-container show" id="loginContainer">
+    <div id="formContent">
+        <button id="closeButton" class="close-button">&times;</button> 
+        <div class="main">
+            <h1>Iniciar Sesión</h1>    
+            <a href="index.html" class="back-link">Volver al Inicio</a>
+            <form class="login-form" id="loginForm">
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" placeholder="Ingresa tu usuario" required>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required>
+                <div class="wrap">
+                    <button type="submit">Iniciar Sesión</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+  <div id="footerContainer">
+    <footer class="footer">
+      <ul class="social-icon">
+          <li class="icon-elemento">
+              <a href="https://www.instagram.com/leomessi?igsh=MmVjOTJ6Nnh1bncw" class="icono" aria-label="Instagram" target="_blank">
+                  <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+          </li>
+          <li class="icon-elemento">
+              <a href="https://www.youtube.com/@arielbetancud" class="icono" aria-label="Youtube" target="_blank">
+                  <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+          </li>
+          <li class="icon-elemento">
+              <a href="https://mail.google.com/mail/u/0/#inbox?compose=new&to=dev.group.utn@gmail.com" class="icono" aria-label="Mail" target="_blank">
+                  <ion-icon name="mail-outline"></ion-icon>
+              </a>
+          </li>
+          <li class="icon-elemento">
+              <a href="https://chat.whatsapp.com/GE5nVu9DVPI8sOxM3RVpI7" class="icono" aria-label="Whatsapp" target="_blank">
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+          </li>
+      </ul>
+      
+      <ul class="menu">
+          <li class="menu-elementos">
+              <a href="/" class="menu-icono">Inicio</a>
+          </li>
+          <li class="menu-elementos">
+              <a href="#" class="menu-icono" onclick="openAboutUs()">Sobre nosotros</a>
+          </li>
+          <li class="menu-elementos">
+              <a href="https://github.com/CodeStrong2023/DevGroupE-commerce/tree/main" class="menu-icono" target="_blank">Contacto</a>
+          </li>
+      </ul>
+      
+      <p class="text">© 2024 DevGroup | Todos los derechos reservados</p>
+  </footer>
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  
+</body>
+</html>
+
+

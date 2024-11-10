@@ -1,0 +1,5 @@
+/node_modules
+Ecommerce-backend/node_modules
+Ecommerce-frontend/node_modules
+
+.log
